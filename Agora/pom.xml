@@ -9,6 +9,9 @@
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
+		<sonar.projectKey>MaPaul7_team-two-back-end</sonar.projectKey>
+  		<sonar.organization>mapaul7</sonar.organization>
+  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<build>
 		<finalName>Agora</finalName>
@@ -100,8 +103,7 @@
 			<version>7.3.0</version>
 			<scope>test</scope>
 		</dependency>
-
-
+		
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
